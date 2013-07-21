@@ -1,0 +1,2 @@
+/home/sa/project/rk2926/kernel/drivers/net/wireless/compat-wireless-3.0.9-1_TR/drivers/net/wireless/ath/ath.ko
+/home/sa/project/rk2926/kernel/drivers/net/wireless/compat-wireless-3.0.9-1_TR/drivers/net/wireless/ath/main.o /home/sa/project/rk2926/kernel/drivers/net/wireless/compat-wireless-3.0.9-1_TR/drivers/net/wireless/ath/regd.o /home/sa/project/rk2926/kernel/drivers/net/wireless/compat-wireless-3.0.9-1_TR/drivers/net/wireless/ath/hw.o /home/sa/project/rk2926/kernel/drivers/net/wireless/compat-wireless-3.0.9-1_TR/drivers/net/wireless/ath/key.o

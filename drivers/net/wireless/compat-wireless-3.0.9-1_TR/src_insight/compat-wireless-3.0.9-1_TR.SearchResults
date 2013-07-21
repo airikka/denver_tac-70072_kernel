@@ -1,0 +1,17 @@
+---- register_netdevice Æ¥Åä (16 ÔÚ 4 ÎÄ¼þ ) ----
+Compat-3.0.h (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\include\linux): * "net: call dev_alloc_name from register_netdevice" dev_alloc_name is
+Compat-3.0.h (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\include\linux):static inline int register_netdevice_name(struct net_device *dev)
+Compat-3.0.h (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\include\linux):	return register_netdevice(dev);
+Compat-3.0.h (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\include\linux):#define register_netdevice(dev) register_netdevice_name(dev)
+Core.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\wireless):	err = register_netdevice_notifier(&cfg80211_netdev_notifier);
+Core.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\wireless):	unregister_netdevice_notifier(&cfg80211_netdev_notifier);
+Core.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\wireless):	unregister_netdevice_notifier(&cfg80211_netdev_notifier);
+Iface.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\mac80211):	ret = register_netdevice(ndev);
+Iface.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\mac80211):	unregister_netdevice(sdata->dev);
+Iface.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\mac80211):		unregister_netdevice_queue(sdata->dev, &unreg_list);
+Iface.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\mac80211):	unregister_netdevice_many(&unreg_list);
+Iface.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\mac80211):		unregister_netdevice(sdata->dev);
+Iface.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\mac80211):	return register_netdevice_notifier(&mac80211_netdev_notifier);
+Iface.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\net\mac80211):	unregister_netdevice_notifier(&mac80211_netdev_notifier);
+Main.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\drivers\net\wireless\wl12xx):	register_netdevice_notifier(&wl1271_dev_notifier);
+Main.c (g:\ar9271_driver\compat-wireless-3.0.9-1_tr\drivers\net\wireless\wl12xx):	unregister_netdevice_notifier(&wl1271_dev_notifier);

@@ -1,0 +1,11 @@
+config CPU1
+bool "config cpu 1.2G"
+default n
+
+config Q8
+bool "config Q8 TP"
+default n
+
+config 86V
+bool "config 86v Tp"
+default y
